@@ -15,12 +15,12 @@ export const projects = [
       },
       {
         type: 'image',
-        src: '/images/kspace3d.png',
+        src: './images/kspace3d.png',
         caption: 'K-space representation of a gaussian beam with modes colored according to amplitude.'
       },
       {
         type: 'image',
-        src: '/images/wavelength_spectrum.png',
+        src: './images/wavelength_spectrum.png',
         caption: 'Lorentzian wavelength spectrum.'
       },
       {
@@ -29,7 +29,7 @@ export const projects = [
       },
       {
         type: 'image',
-        src: '/images/singularities_network.png',
+        src: './images/singularities_network.png',
         caption: 'Networks of Cᵀ (green) and Lᵀ (red) lines with translucent L surfaces (white).'
       },
       {
@@ -56,7 +56,7 @@ export const projects = [
       },
       {
         type: 'image',
-        src: '/images/d_eff.png',
+        src: './images/d_eff.png',
         caption: 'Effective dimensionality across the paraxial-hemispherical limits.'
       },
       {
@@ -65,12 +65,12 @@ export const projects = [
       },
       {
         type: 'image',
-        src: '/images/N_C.png',
+        src: './images/N_C.png',
         caption: 'Normalized C-point density across α.'
       },
       {
         type: 'image',
-        src: '/images/cct_correspondence.png',
+        src: './images/cct_correspondence.png',
         caption: 'Parameters quantifying the correspondence between C-points and Cᵀ-points across α.'
       },
       {
