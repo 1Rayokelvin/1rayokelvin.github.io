@@ -1,9 +1,9 @@
 {
-  "name": "physics-portfolio",
+  "name": "portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://1rayokelvin.github.io/portfolio",
+  "homepage": "https://1rayokelvin.github.io",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
