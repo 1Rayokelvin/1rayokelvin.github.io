@@ -148,7 +148,7 @@ export default function SpeckleSimulation({ interactiveMode, onExit }) {
           else ctx.lineTo(px, py);
         }
         // Fade alpha along trail - simplified for performance to single stroke
-        ctx.strokeStyle = `rgba(156, 163, 175, 0.4)`;
+        ctx.strokeStyle = `rgba(156, 163, 175, 0.65)`;
         ctx.stroke();
       }
 
