@@ -31,8 +31,7 @@ function App() {
         <section id="about" className="hero">
           <h1>Physics, Mathematics, and Computation.</h1>
           <p className="subtitle">
-            I am an undergraduate physics student at the University of Hyderabad interested in theoretical and computational physics. 
-            I am fascinated by the rich structures that emerge in nature and by the mathematical frameworks that describe them. 
+            I am an Integrated M.Sc. Physics student at the University of Hyderabad interested in theoretical and computational physics. 
             My work has focused on singular optics, where I have developed computational tools for studying optical singularities{' '}
             <span
               onClick={() => {
@@ -50,7 +49,7 @@ function App() {
             >
               (click to interact)
             </span>
-            , and I am currently exploring extensions of classical electrodynamics.
+            . More broadly, I'm interested in how topology shows up in physics (e.g. Dirac monopoles, Berry phases).
           </p>
         </section>
 

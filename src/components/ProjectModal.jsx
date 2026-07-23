@@ -26,7 +26,6 @@ export default function ProjectModal({ activeProject, onClose }) {
               const block = blocks[i];
               const nextBlock = blocks[i + 1];
 
-              // Render side-by-side images if two consecutive images are found
               if (block.type === 'image' && nextBlock?.type === 'image') {
                 rendered.push(
                   <div
@@ -112,20 +111,42 @@ export default function ProjectModal({ activeProject, onClose }) {
             return rendered;
           })() : <p>{activeProject.details}</p>}
 
-          {activeProject.link && (
+          {activeProject.status && (
+            <p
+              style={{
+                marginTop: '1.5rem',
+                fontStyle: 'italic',
+                opacity: 0.75,
+              }}
+            >
+              {activeProject.status}
+            </p>
+          )}
+
+          {(
+            activeProject.links ||
+            (activeProject.link
+              ? [{
+                    href: activeProject.link,
+                    label: activeProject.linkLabel || 'View Project',
+                  },]
+              : [])
+          ).map((l, idx) => (
             <a
-              href={activeProject.link}
+              key={idx}
+              href={l.href}
               target="_blank"
               rel="noreferrer"
               className="btn"
               style={{
                 marginTop: '1.5rem',
+                marginRight: '1rem',
                 display: 'inline-block',
               }}
             >
-              {activeProject.linkLabel || 'View Project'}
+              {l.label}
             </a>
-          )}
+          ))}
         </div>
       </div>
     </div>

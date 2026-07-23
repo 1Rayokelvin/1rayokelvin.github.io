@@ -37,8 +37,11 @@ export const projects = [
         content: 'For a more comprehensive introduction, detailed examples, and tutorials demonstrating the full capabilities of the framework, see the project documentation.'
       },
     ],
-    link: 'https://1rayokelvin.github.io/VectorWaves/',
-    linkLabel: 'View Documentation'
+    links: [
+      { href: 'https://1rayokelvin.github.io/VectorWaves/', label: 'View Documentation' },
+      { href: 'https://github.com/1Rayokelvin/VectorWaves', label: 'GitHub' },
+      { href: 'https://pypi.org/project/vectorwaves/', label: 'PyPI' }
+    ]
   },
   {
     id: 'speckle_crossover',
@@ -75,26 +78,21 @@ export const projects = [
       },
       {
         type: 'text',
-        content: 'Together, these results provide a quantitative framework for understanding how the statistical and topological properties of Gaussian speckles evolve between the canonical two- and three-dimensional limits. For details, the archive link is attached.'
+        content: 'Together, these results provide a quantitative framework for understanding how the statistical and topological properties of Gaussian speckles evolve between the canonical two- and three-dimensional limits.'
       }
     ],
-    link: 'https://arxiv.org/',
-    linkLabel: 'Read Paper'
+    status: 'Release planned shortly.'
   },
   {
-    id: 'monopoles',
-    tags: ['Future Research', 'Theoretical'],
-    title: 'Dirac Monopoles & General Relativity',
-    summary: 'Upcoming numerical frameworks focusing on the intersection of topology and astrophysics. Planned projects include 3D computational renderings of black holes, neutron stars, and the visualization of Dirac monopoles.',
+    id: 'topology_curiosity',
+    tags: ['Current Interest', 'Topology'],
+    title: 'Topology in Physics',
+    summary: 'An area of physics I hope to study more deeply, especially how topological ideas connect quantum mechanics, condensed matter, and gauge theories.',
+
     body: [
       {
         type: 'text',
-        content: 'This area of research is currently in the foundational study phase. Future numerical frameworks will explore the intersection of topology and astrophysics, aiming to build 3D computational renderings of black holes, neutron stars, and the visualization of Dirac monopoles.'
-      },
-      {
-        type: 'text',
-        content: 'Status: Pending study and development. Check back later for simulations and detailed findings!'
-      }
-    ]
+        content: 'My interest began while working with polarization singularities and has since grown into a broader curiosity about topology throughout physics.'
+      }]
   }
 ];
