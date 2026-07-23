@@ -23,11 +23,14 @@ function App() {
         <nav>
           <div className="logo">M. Soni</div>
           <div className="nav-links">
-            <a href="#about">About me</a>
-            <a href="#portfolio">My works</a>
+            <a href="#about">About</a>
+            <a href="#portfolio">Projects</a>
+            <a href="/Mayank_Soni_CV.pdf" target="_blank" rel="noopener noreferrer">
+              CV
+            </a>
           </div>
         </nav>
-
+        
         <section id="about" className="hero">
           <h1>Physics, Mathematics, and Computation.</h1>
           <p className="subtitle">
