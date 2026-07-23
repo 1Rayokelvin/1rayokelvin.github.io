@@ -31,7 +31,7 @@ function App() {
         <section id="about" className="hero">
           <h1>Physics, Mathematics, and Computation.</h1>
           <p className="subtitle">
-            I am an Integrated M.Sc. Physics student at the University of Hyderabad interested in theoretical and computational physics. 
+            I am an Integrated M.Sc. Physics student at the University of Hyderabad, interested in theoretical and computational physics. 
             My work has focused on singular optics, where I have developed computational tools for studying optical singularities{' '}
             <span
               onClick={() => {

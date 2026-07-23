@@ -1,7 +1,7 @@
 export const projects = [
   {
     id: 'vectorwaves',
-    tags: ['Simulation', 'Framework'],
+    tags: ['Python Library', 'Simulation Framework'],
     title: 'VectorWaves',
     summary: 'A high-performance Python framework for plane-wave superposition in vacuum. Built around a flexible configuration system, it provides tools for generating, analyzing, and visualizing electromagnetic wavefields ranging from simple interference patterns to complex singular optical structures.',
     body: [
@@ -38,7 +38,7 @@ export const projects = [
       },
     ],
     links: [
-      { href: 'https://1rayokelvin.github.io/VectorWaves/', label: 'View Documentation' },
+      { href: 'https://1rayokelvin.github.io/VectorWaves/', label: 'Documentation' },
       { href: 'https://github.com/1Rayokelvin/VectorWaves', label: 'GitHub' },
       { href: 'https://pypi.org/project/vectorwaves/', label: 'PyPI' }
     ]
